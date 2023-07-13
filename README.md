@@ -1,17 +1,4 @@
-
-<!-- download -->
-## Download And installation
-
-Download this template from [Github](https://github.com/themefisher/small-apps/archive/main.zip)
-
-<!-- installation -->
-### Basic Usages
-
-After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
-
-### Advanced Usage
-
-For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+## Installation
 
 #### Install prerequisites (once for a machine)
 
