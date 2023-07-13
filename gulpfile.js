@@ -175,3 +175,15 @@ gulp.task(
     "plugins:build"
   )
 );
+
+var deploy = require("gulp-gh-pages");
+
+gulp.task("deploy", function () {
+  return gulp.src("./prod/**/*").pipe(
+    deploy({
+      remoteUrl:
+        "https://github.com/KapybaraAI/KapybaraAI.github.io.git",
+      branch: "master",
+    })
+  );
+});
